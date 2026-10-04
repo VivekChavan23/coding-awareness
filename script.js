@@ -35,13 +35,13 @@
           buttonElement.style.color = '#ffffff';
           buttonElement.style.borderColor = '#10b981';
           resultDiv.style.color = '#10b981';
-          resultDiv.innerHTML = "✅ Sahi Jawab! Loop 5 baar hi execute hoga.";
+          resultDiv.innerHTML = "✅ CORRECT ANSWER.";
       } else {
           buttonElement.style.backgroundColor = '#ef4444';
           buttonElement.style.color = '#ffffff';
           buttonElement.style.borderColor = '#ef4444';
           resultDiv.style.color = '#ef4444';
-          resultDiv.innerHTML = "❌ Galat Jawab! Sahi option '5 times' hai.";
+          resultDiv.innerHTML = "❌ WRONG ANSWER PLEASE TRY AGAIN.";
       }
   }
 
