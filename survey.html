@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Insights & Data Analytics | Coding Awareness Program</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Clean Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">&lt;Code<span>Aware</span>/&gt;</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#objectives">Objectives</a></li>
+                    <li><a href="gallery.html">Field Work</a></li>
+                    <li><a href="survey.html" class="active-nav">Survey Data</a></li>
+                    <li><a href="index.html#project-info">Project Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= PAGE HERO HEADER ================= -->
+    <section class="page-header">
+        <div class="container">
+            <span class="badge">PostgreSQL Database Analysis (148 Total Records)</span>
+            <h1>Survey Insights &amp; <span>Data Analytics</span></h1>
+            <p>
+                Comprehensive empirical analysis of responses collected from 74 students (Classes 6th–10th) and 74 school teachers across Kalyan and Bhiwandi.
+            </p>
+            <div class="header-actions">
+                <a href="index.html" class="btn btn-outline">← Back to Home</a>
+                <a href="gallery.html" class="btn btn-primary">View Field Work Photos →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TOP SUMMARY METRICS ================= -->
+    <section class="field-stats-section">
+        <div class="container">
+            <div class="grid-4">
+                <div class="stat-card mini">
+                    <div class="stat-number">74</div>
+                    <h4>Students Surveyed</h4>
+                    <p>Classes 6th to 10th</p>
+                </div>
+                <div class="stat-card mini">
+                    <div class="stat-number">74</div>
+                    <h4>Teachers Surveyed</h4>
+                    <p>Across visited institutions</p>
+                </div>
+                <div class="stat-card mini">
+                    <div class="stat-number">77.0%</div>
+                    <h4>Student Willingness</h4>
+                    <p>Highly interested to code</p>
+                </div>
+                <div class="stat-card mini">
+                    <div class="stat-number">94.6%</div>
+                    <h4>Teacher Support</h4>
+                    <p>Advocate school coding</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= MAIN SURVEY DATA SECTION ================= -->
+    <section class="survey" style="padding-top: 30px;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Survey Breakdown by Respondent Group</h2>
+                <p>Select a group below to view detailed statistical insights, interest distributions, and obstacles.</p>
+            </div>
+
+            <!-- Tab Switcher -->
+            <div class="tab-buttons">
+                <button class="tab-btn active" id="btnStudents" onclick="showSurveyTab('students')">Student Insights (74 Responses)</button>
+                <button class="tab-btn" id="btnTeachers" onclick="showSurveyTab('teachers')">Teacher Insights (74 Responses)</button>
+            </div>
+
+            <!-- ================= STUDENT INSIGHTS PANEL ================= -->
+            <div id="studentsPanel" class="tab-panel active">
+                <div class="grid-3 stats-row">
+                    <div class="stat-card">
+                        <div class="stat-number">77.0%</div>
+                        <h4>Willingness to Learn</h4>
+                        <p>57 of 74 students actively expressed strong interest to learn coding.</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">21.6%</div>
+                        <h4>Prior Coding Exposure</h4>
+                        <p>Only 16 students had attempted coding previously, highlighting the awareness gap.</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">72.3%</div>
+                        <h4>Career &amp; Tech Awareness</h4>
+                        <p>Recognized that software and digital skills are vital for future career prospects.</p>
+                    </div>
+                </div>
+
+                <!-- Student Topic Preferences -->
+                <div class="progress-section">
+                    <h3>What Students Want to Create &amp; Learn</h3>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>🎮 Making Video Games &amp; Animation (Scratch / Pygame)</span><span>47.3%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 47.3%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>📱 Mobile Apps Development (App Inventor / Flutter)</span><span>28.4%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 28.4%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>🌐 Building Websites (HTML, CSS, JavaScript)</span><span>14.9%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 14.9%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>🐍 Core Python Programming &amp; Logic</span><span>9.4%</span></div>
+                        <div class="bar-bg"><div class="bar-fill" style="width: 9.4%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Student Barriers -->
+                <div class="progress-section">
+                    <h3>Biggest Difficulties Faced by Students</h3>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Don't know where or how to start (Lack of guidance)</span><span>40.5%</span></div>
+                        <div class="bar-bg"><div class="bar-fill orange" style="width: 40.5%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>No dedicated computer / laptop at home</span><span>32.4%</span></div>
+                        <div class="bar-bg"><div class="bar-fill orange" style="width: 32.4%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>School focuses mostly on theory &amp; MS Office</span><span>27.1%</span></div>
+                        <div class="bar-bg"><div class="bar-fill orange" style="width: 27.1%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Student Feedback Quotes -->
+                <div class="section-title" style="margin-top: 40px; margin-bottom: 25px;">
+                    <h3>Direct Student Testimonials</h3>
+                </div>
+                <div class="grid-3">
+                    <div class="quote-card">
+                        <p class="quote-text">"I always wanted to make games like Flappy Bird, but in school we only learned MS Paint and Word. This workshop showed us coding is possible!"</p>
+                        <div class="quote-author">
+                            <strong>Class 7th Student</strong>
+                            <span>Saraswati Mandir School, Kalyan</span>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote-text">"The logic puzzles were very fun! If we can learn Scratch and Python step-by-step in our lab, it will help us immensely."</p>
+                        <div class="quote-author">
+                            <strong>Class 8th Student</strong>
+                            <span>Saraswati Mandir School, Kalyan</span>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote-text">"Coding seemed very hard before, but seeing visual blocks made it easy to understand how loops and conditions work."</p>
+                        <div class="quote-author">
+                            <strong>Class 9th Student</strong>
+                            <span>School Campus, Bhiwandi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= TEACHER INSIGHTS PANEL ================= -->
+            <div id="teachersPanel" class="tab-panel">
+                <div class="grid-3 stats-row">
+                    <div class="stat-card">
+                        <div class="stat-number">94.6%</div>
+                        <h4>Advocate School Coding</h4>
+                        <p>70 of 74 educators agree coding should be integral to the standard school curriculum.</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">78.4%</div>
+                        <h4>Rated "Very Useful"</h4>
+                        <p>58 teachers rated our awareness program and student orientation as exceptionally beneficial.</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">85.1%</div>
+                        <h4>Noticed Student Spark</h4>
+                        <p>Observed enhanced enthusiasm and computational curiosity among students post-session.</p>
+                    </div>
+                </div>
+
+                <!-- Teacher Challenges -->
+                <div class="progress-section">
+                    <h3>Top Institutional Barriers Highlighted by Teachers</h3>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Shortage of Qualified / Trained Computer Science Teachers</span><span>64.9%</span></div>
+                        <div class="bar-bg"><div class="bar-fill orange" style="width: 64.9%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Insufficient / Aging Computer Lab Hardware</span><span>54.1%</span></div>
+                        <div class="bar-bg"><div class="bar-fill orange" style="width: 54.1%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Lack of Structured Hands-On Curriculum for Kids</span><span>45.9%</span></div>
+                        <div class="bar-bg"><div class="bar-fill orange" style="width: 45.9%;"></div></div>
+                    </div>
+                    <div class="bar-group">
+                        <div class="bar-label"><span>Academic Time Pressure for Board Exam Subjects</span><span>35.1%</span></div>
+                        <div class="bar-bg"><div class="bar-fill orange" style="width: 35.1%;"></div></div>
+                    </div>
+                </div>
+
+                <!-- Teacher Feedback Quotes -->
+                <div class="section-title" style="margin-top: 40px; margin-bottom: 25px;">
+                    <h3>Direct Teacher Testimonials</h3>
+                </div>
+                <div class="grid-3">
+                    <div class="quote-card">
+                        <p class="quote-text">"Schools must move beyond conventional computer literacy. Introducing logic and block coding early will prepare our students for NEP 2020 objectives."</p>
+                        <div class="quote-author">
+                            <strong>Computer Teacher</strong>
+                            <span>Secondary Section</span>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote-text">"Hands-on demonstrations help remove fear. The biggest challenge is having regular workshops and updated computer systems for each child."</p>
+                        <div class="quote-author">
+                            <strong>Science &amp; Maths Faculty</strong>
+                            <span>Kalyan Campus</span>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p class="quote-text">"We appreciate college student initiatives like this. Conducting regular weekend bootcamps would create a lasting impact in local schools."</p>
+                        <div class="quote-author">
+                            <strong>Headmistress / Senior Faculty</strong>
+                            <span>Bhiwandi Campus</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= DATABASE ARCHITECTURE INFO ================= -->
+    <section class="project-info" style="background-color: var(--white); padding: 40px 0;">
+        <div class="container">
+            <div class="info-box">
+                <h2>PostgreSQL Database Architecture &amp; Verification</h2>
+                <div class="info-grid">
+                    <div><strong>Database Name:</strong> coding_awareness (PostgreSQL 18)</div>
+                    <div><strong>Students Table:</strong> 74 Clean Rows (`students_clean.csv`)</div>
+                    <div><strong>Teachers Table:</strong> 74 Clean Rows (`teachers_clean.csv`)</div>
+                    <div><strong>Integrity Check:</strong> 0 NULL Values, Verified via pgAdmin 4</div>
+                    <div><strong>Primary Fields:</strong> Interest Level, Desired Skills, Barriers, Suggestions</div>
+                    <div><strong>Status:</strong> 100% Stored, Exported &amp; Validated</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BOTTOM NAVIGATION CTA ================= -->
+    <section class="cta-banner">
+        <div class="container cta-content">
+            <div>
+                <h3>Want to see photos of our school sessions?</h3>
+                <p>Browse our high-resolution gallery of student and teacher interactions.</p>
+            </div>
+            <div class="cta-btns">
+                <a href="gallery.html" class="btn btn-primary">View Field Work Photos →</a>
+                <a href="index.html" class="btn btn-outline-white">← Return to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&lt;Code<span>Aware</span>/&gt; • UG Community Engagement Project</p>
+            <p>&copy; 2026. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

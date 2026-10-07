@@ -1,350 +1,181 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Coding Awareness Program for School Children | UG CEP</title>
-      <link rel="stylesheet" href="style.css">
-      <!-- Clean Google Font -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Awareness Program for School Children | UG CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Clean Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-      <!-- ================= NAVBAR ================= -->
-      <header class="navbar">
-          <div class="container nav-content">
-              <a href="#" class="logo">&lt;Code<span>Aware</span>/&gt;</a>
-              <nav>
-                  <ul class="nav-links">
-                      <li><a href="#about">About</a></li>
-                      <li><a href="#objectives">Objectives</a></li>
-                      <li><a href="#gallery">Field Work</a></li>
-                      <li><a href="#survey">Survey Insights</a></li>
-                      <li><a href="#feedback">Feedback</a></li>
-                      <li><a href="#project-info">Project Info</a></li>
-                  </ul>
-              </nav>
-          </div>
-      </header>
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">&lt;Code<span>Aware</span>/&gt;</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active-nav">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#objectives">Objectives</a></li>
+                    <li><a href="gallery.html">Field Work (Photos)</a></li>
+                    <li><a href="survey.html">Survey Data (74)</a></li>
+                    <li><a href="#quiz">Interactive Quiz</a></li>
+                    <li><a href="#project-info">Project Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-      <!-- ================= HERO SECTION ================= -->
-      <section class="hero" id="hero">
-          <div class="container hero-grid">
-              <div class="hero-text">
-                  <span class="badge">UG Community Engagement Project</span>
-                  <h1>Empowering Young Minds Through <span>Coding & Logic</span></h1>
-                  <p>
-                      A grassroots community awareness initiative introducing school students (Classes 6th–10th) to foundational programming, computational thinking, and digital skills.
-                  </p>
-                  <div class="hero-btns">
-                      <a href="#gallery" class="btn btn-primary">View Field Work Photos</a>
-                      <a href="#survey" class="btn btn-outline">View Survey Data (74 Responses)</a>
-                  </div>
-              </div>
-              <div class="hero-card">
-                  <div class="terminal-box">
-                      <div class="terminal-header">
-                          <span class="dot red"></span>
-                          <span class="dot yellow"></span>
-                          <span class="dot green"></span>
-                          <span class="file-name">coding_program.py</span>
-                      </div>
-                      <div class="terminal-body">
-                          <p><span class="keyword">def</span> <span class="func">start_learning</span>(student):</p>
-                          <p class="indent-1">curiosity = <span class="val">True</span></p>
-                          <p class="indent-1"><span class="keyword">if</span> curiosity:</p>
-                          <p class="indent-2">skills = [<span class="str">"Scratch"</span>, <span class="str">"Python"</span>, <span class="str">"Web"</span>]</p>
-                          <p class="indent-2"><span class="keyword">return</span> <span class="str">"Future Ready Coder! 🚀"</span></p>
-                          <hr>
-                          <p class="output-text">&gt;&gt;&gt; Total Survey Participants: <strong>74</strong></p>
-                          <p class="output-text">&gt;&gt;&gt; Database: <strong>PostgreSQL 18</strong></p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="badge">UG Community Engagement Project</span>
+                <h1>Empowering Young Minds Through <span>Coding & Logic</span></h1>
+                <p>
+                    A grassroots community awareness initiative introducing school students (Classes 6th–10th) to foundational programming, computational thinking, and digital skills.
+                </p>
+                <div class="hero-btns">
+                    <a href="gallery.html" class="btn btn-primary">View Field Work Photos</a>
+                    <a href="survey.html" class="btn btn-outline">View Survey Data (74 Responses)</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="terminal-box">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="file-name">coding_program.py</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="keyword">def</span> <span class="func">start_learning</span>(student):</p>
+                        <p class="indent-1">curiosity = <span class="val">True</span></p>
+                        <p class="indent-1"><span class="keyword">if</span> curiosity:</p>
+                        <p class="indent-2">skills = [<span class="str">"Scratch"</span>, <span class="str">"Python"</span>, <span class="str">"Web"</span>]</p>
+                        <p class="indent-2"><span class="keyword">return</span> <span class="str">"Future Ready Coder! 🚀"</span></p>
+                        <hr>
+                        <p class="output-text">&gt;&gt;&gt; Total Survey Participants: <strong>74</strong></p>
+                        <p class="output-text">&gt;&gt;&gt; Database: <strong>PostgreSQL 18</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <!-- ================= ABOUT SECTION ================= -->
-      <section class="about" id="about">
-          <div class="container">
-              <div class="section-title">
-                  <h2>Why Coding Awareness in Schools?</h2>
-                  <p>Aligned with National Education Policy (NEP 2020) for early computational literacy.</p>
-              </div>
-              <div class="grid-3">
-                  <div class="card">
-                      <div class="card-icon">🧠</div>
-                      <h3>Logical &amp; Critical Thinking</h3>
-                      <p>Coding trains children to break down complex problems into structured, manageable steps.</p>
-                  </div>
-                  <div class="card">
-                      <div class="card-icon">💻</div>
-                      <h3>Practical Digital Exposure</h3>
-                      <p>Moving students from just consuming digital games to creating interactive stories and apps.</p>
-                  </div>
-                  <div class="card">
-                      <div class="card-icon">📊</div>
-                      <h3>Survey-Driven Research</h3>
-                      <p>Backed by real empirical survey data collected from 74 students and teachers across schools.</p>
-                  </div>
-              </div>
-          </div>
-      </section>
+    <!-- ================= ABOUT SECTION ================= -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Coding Awareness in Schools?</h2>
+                <p>Aligned with National Education Policy (NEP 2020) for early computational literacy.</p>
+            </div>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="card-icon">🧠</div>
+                    <h3>Logical &amp; Critical Thinking</h3>
+                    <p>Coding trains children to break down complex problems into structured, manageable steps.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>Practical Digital Exposure</h3>
+                    <p>Moving students from just consuming digital games to creating interactive stories and apps.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Survey-Driven Research</h3>
+                    <p>Backed by real empirical survey data collected from 74 students and teachers across schools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <!-- ================= OBJECTIVES ================= -->
-      <section class="objectives" id="objectives">
-          <div class="container">
-              <div class="section-title">
-                  <h2>Core Program Objectives</h2>
-              </div>
-              <div class="obj-grid">
-                  <div class="obj-card">
-                      <div class="obj-no">01</div>
-                      <div>
-                          <h4>Demystify Programming</h4>
-                          <p>Remove the fear of coding by starting with visual block puzzles and interactive games.</p>
-                      </div>
-                  </div>
-                  <div class="obj-card">
-                      <div class="obj-no">02</div>
-                      <div>
-                          <h4>Hands-on Foundation</h4>
-                          <p>Introduce Python syntax, web structure (HTML/CSS), and algorithmic flowcharts.</p>
-                      </div>
-                  </div>
-                  <div class="obj-card">
-                      <div class="obj-no">03</div>
-                      <div>
-                          <h4>Assess Ground Challenges</h4>
-                          <p>Identify infrastructure gaps (computer availability, teacher training) through surveys.</p>
-                      </div>
-                  </div>
-                  <div class="obj-card">
-                      <div class="obj-no">04</div>
-                      <div>
-                          <h4>Career Guidance</h4>
-                          <p>Guide young students regarding diverse career opportunities in technology and STEM fields.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+    <!-- ================= OBJECTIVES ================= -->
+    <section class="objectives" id="objectives">
+        <div class="container">
+            <div class="section-title">
+                <h2>Core Program Objectives</h2>
+            </div>
+            <div class="obj-grid">
+                <div class="obj-card">
+                    <div class="obj-no">01</div>
+                    <div>
+                        <h4>Demystify Programming</h4>
+                        <p>Remove the fear of coding by starting with visual block puzzles and interactive games.</p>
+                    </div>
+                </div>
+                <div class="obj-card">
+                    <div class="obj-no">02</div>
+                    <div>
+                        <h4>Hands-on Foundation</h4>
+                        <p>Introduce Python syntax, web structure (HTML/CSS), and algorithmic flowcharts.</p>
+                    </div>
+                </div>
+                <div class="obj-card">
+                    <div class="obj-no">03</div>
+                    <div>
+                        <h4>Assess Ground Challenges</h4>
+                        <p>Identify infrastructure gaps (computer availability, teacher training) through surveys.</p>
+                    </div>
+                </div>
+                <div class="obj-card">
+                    <div class="obj-no">04</div>
+                    <div>
+                        <h4>Career Guidance</h4>
+                        <p>Guide young students regarding diverse career opportunities in technology and STEM fields.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-      <!-- ================= FIELD WORK & GALLERY ================= -->
-      <section class="gallery-section" id="gallery">
-          <div class="container">
-              <div class="section-title">
-                  <h2>School Field Work &amp; Student Interactions</h2>
-                  <p>On-ground student awareness sessions, questionnaire distributions, and faculty interactions.</p>
-              </div>
-              <div class="gallery-grid">
-                  <div class="gallery-card">
-                      <div class="gallery-img-wrap">
-                          <img src="school_session_kalyan.jpg" alt="Coding Awareness Session in Kalyan School">
-                          <span class="gallery-badge">Classroom Session</span>
-                      </div>
-                      <div class="gallery-body">
-                          <h3>School Awareness Session</h3>
-                          <p class="gallery-location">📍 Saraswati Mandir School, Kalyan</p>
-                          <p>Conducting foundational coding orientation, computational thinking awareness, and interacting directly with school students and faculty.</p>
-                      </div>
-                  </div>
+    <!-- ================= INTERACTIVE MINI QUIZ ================= -->
+    <section class="quiz-section" id="quiz">
+        <div class="container">
+            <div class="quiz-box">
+                <span class="badge">Interactive Logic Test</span>
+                <h3>Test a Sample Question from Our Workshop</h3>
+                <p id="quizQuestion">Q: If a loop runs 5 times and prints "Hello", how many times will "Hello" appear?</p>
+                <div class="quiz-options">
+                    <button class="quiz-btn" onclick="checkAnswer(this, false)">4 times</button>
+                    <button class="quiz-btn" onclick="checkAnswer(this, true)">5 times</button>
+                    <button class="quiz-btn" onclick="checkAnswer(this, false)">6 times</button>
+                    <button class="quiz-btn" onclick="checkAnswer(this, false)">Infinite</button>
+                </div>
+                <div id="quizResult" class="quiz-result"></div>
+            </div>
+        </div>
+    </section>
 
-                  <div class="gallery-card">
-                      <div class="gallery-img-wrap">
-                          <img src="teacher_survey_bhiwandi_1.jpg" alt="Teacher Survey Interaction in Bhiwandi">
-                          <span class="gallery-badge">Faculty Survey</span>
-                      </div>
-                      <div class="gallery-body">
-                          <h3>Teacher Survey &amp; Feedback</h3>
-                          <p class="gallery-location">📍 School Campus, Bhiwandi</p>
-                          <p>Distributing and collecting structured survey forms to understand school curriculum challenges, IT infrastructure, and student interest.</p>
-                      </div>
-                  </div>
+    <!-- ================= PROJECT INFO / TEAM ================= -->
+    <section class="project-info" id="project-info">
+        <div class="container">
+            <div class="info-box">
+                <h2>Project Information</h2>
+                <div class="info-grid">
+                    <div><strong>Project:</strong> Coding Awareness Program for School Children</div>
+                    <div><strong>Course:</strong> UG Community Engagement Project (CEP)</div>
+                    <div><strong>Backend / Database:</strong> PostgreSQL 18 &amp; pgAdmin 4</div>
+                    <div><strong>Survey Sample:</strong> 74 Verified Responses (Students &amp; Teachers)</div>
+                    <div><strong>Frontend Stack:</strong> HTML5, CSS3 (Flexbox &amp; Grid), Vanilla JavaScript</div>
+                    <div><strong>Target Beneficiaries:</strong> School Students (Classes 6th–10th)</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                  <div class="gallery-card">
-                      <div class="gallery-img-wrap">
-                          <img src="teacher_survey_bhiwandi_2.jpg" alt="Faculty Interaction & Discussion in Bhiwandi">
-                          <span class="gallery-badge">Field Interaction</span>
-                      </div>
-                      <div class="gallery-body">
-                          <h3>Curriculum &amp; Lab Assessment</h3>
-                          <p class="gallery-location">📍 School Campus, Bhiwandi</p>
-                          <p>Consulting with educators on hands-on coding modules, computer lab availability, and practical barriers faced in secondary education.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&lt;Code<span>Aware</span>/&gt; • UG Community Engagement Project</p>
+            <p>&copy; 2026. All rights reserved.</p>
+        </div>
+    </footer>
 
-      <!-- ================= SURVEY DATA & STATS ================= -->
-      <section class="survey" id="survey">
-          <div class="container">
-              <div class="section-title">
-                  <h2>Survey Insights &amp; Data Analysis</h2>
-                  <p>Authentic data collected from 74 respondents stored in PostgreSQL database.</p>
-              </div>
-
-              <div class="tab-buttons">
-                  <button class="tab-btn active" id="btnStudents" onclick="showSurveyTab('students')">Student Insights (74)</button>
-                  <button class="tab-btn" id="btnTeachers" onclick="showSurveyTab('teachers')">Teacher Insights (74)</button>
-              </div>
-
-              <!-- Student Insights Panel -->
-              <div id="studentsPanel" class="tab-panel active">
-                  <div class="grid-3 stats-row">
-                      <div class="stat-card">
-                          <div class="stat-number">77%</div>
-                          <h4>High Interest in Coding</h4>
-                          <p>57 of 74 students actively want to continue learning software skills.</p>
-                      </div>
-                      <div class="stat-card">
-                          <div class="stat-number">72%</div>
-                          <h4>Career Awareness</h4>
-                          <p>Recognize coding will significantly help in their higher education and career.</p>
-                      </div>
-                      <div class="stat-card">
-                          <div class="stat-number">78%</div>
-                          <h4>Prior Curiosity</h4>
-                          <p>58 students had tried or showed strong curiosity for digital apps.</p>
-                      </div>
-                  </div>
-
-                  <div class="progress-section">
-                      <h3>Top Topics Preferred by Students</h3>
-                      <div class="bar-group">
-                          <div class="bar-label"><span>Python Programming</span><span>42%</span></div>
-                          <div class="bar-bg"><div class="bar-fill" style="width: 42%;"></div></div>
-                      </div>
-                      <div class="bar-group">
-                          <div class="bar-label"><span>Game &amp; Web Development</span><span>31%</span></div>
-                          <div class="bar-bg"><div class="bar-fill" style="width: 31%;"></div></div>
-                      </div>
-                      <div class="bar-group">
-                          <div class="bar-label"><span>Java &amp; App Development</span><span>27%</span></div>
-                          <div class="bar-bg"><div class="bar-fill" style="width: 27%;"></div></div>
-                      </div>
-                  </div>
-              </div>
-
-              <!-- Teacher Insights Panel -->
-              <div id="teachersPanel" class="tab-panel">
-                  <div class="grid-3 stats-row">
-                      <div class="stat-card">
-                          <div class="stat-number">94.6%</div>
-                          <h4>Advocate School Coding</h4>
-                          <p>70 out of 74 teachers agree coding should be introduced in school curriculum.</p>
-                      </div>
-                      <div class="stat-card">
-                          <div class="stat-number">89.2%</div>
-                          <h4>Found Program Useful</h4>
-                          <p>Rated the awareness workshop as highly beneficial for student engagement.</p>
-                      </div>
-                      <div class="stat-card">
-                          <div class="stat-number">85.1%</div>
-                          <h4>Increased Interest</h4>
-                          <p>Noticed a clear boost in students' curiosity towards STEM subjects.</p>
-                      </div>
-                  </div>
-
-                  <div class="progress-section">
-                      <h3>Key Challenges Highlighted by Teachers</h3>
-                      <div class="bar-group">
-                          <div class="bar-label"><span>Lack of Dedicated IT Teachers</span><span>68%</span></div>
-                          <div class="bar-bg"><div class="bar-fill orange" style="width: 68%;"></div></div>
-                      </div>
-                      <div class="bar-group">
-                          <div class="bar-label"><span>Limited Computer Lab Equipment</span><span>54%</span></div>
-                          <div class="bar-bg"><div class="bar-fill orange" style="width: 54%;"></div></div>
-                      </div>
-                      <div class="bar-group">
-                          <div class="bar-label"><span>Need for Regular Structured Workshops</span><span>45%</span></div>
-                          <div class="bar-bg"><div class="bar-fill orange" style="width: 45%;"></div></div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- ================= INTERACTIVE MINI QUIZ ================= -->
-      <section class="quiz-section">
-          <div class="container">
-              <div class="quiz-box">
-                  <span class="badge">Interactive Logic Test</span>
-                  <h3>Test a Sample Question from Our Workshop</h3>
-                  <p id="quizQuestion">Q: If a loop runs 5 times and prints "Hello", how many times will "Hello" appear?</p>
-                  <div class="quiz-options">
-                      <button class="quiz-btn" onclick="checkAnswer(this, false)">4 times</button>
-                      <button class="quiz-btn" onclick="checkAnswer(this, true)">5 times</button>
-                      <button class="quiz-btn" onclick="checkAnswer(this, false)">6 times</button>
-                      <button class="quiz-btn" onclick="checkAnswer(this, false)">Infinite</button>
-                  </div>
-                  <div id="quizResult" class="quiz-result"></div>
-              </div>
-          </div>
-      </section>
-
-      <!-- ================= FEEDBACK / QUOTES ================= -->
-      <section class="feedback" id="feedback">
-          <div class="container">
-              <div class="section-title">
-                  <h2>Direct Feedback from Survey</h2>
-                  <p>Authentic quotes submitted in our survey form.</p>
-              </div>
-              <div class="grid-3">
-                  <div class="quote-card">
-                      <p class="quote-text">"Coding and IT should be taught from the school level with more practical activities and simple hands-on projects."</p>
-                      <div class="quote-author">
-                          <strong>Student Feedback</strong>
-                          <span>Class 7th Student</span>
-                      </div>
-                  </div>
-                  <div class="quote-card">
-                      <p class="quote-text">"Schools should provide regular practical coding activities, teacher training, and access to computers so that students can
-  learn coding effectively."</p>
-                      <div class="quote-author">
-                          <strong>Teacher Feedback</strong>
-                          <span>Faculty Member</span>
-                      </div>
-                  </div>
-                  <div class="quote-card">
-                      <p class="quote-text">"Making games and simple programs showed us that computers are for creating things, not just browsing."</p>
-                      <div class="quote-author">
-                          <strong>Student Feedback</strong>
-                          <span>Class 8th Student</span>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- ================= PROJECT INFO / TEAM ================= -->
-      <section class="project-info" id="project-info">
-          <div class="container">
-              <div class="info-box">
-                  <h2>Project Information</h2>
-                  <div class="info-grid">
-                      <div><strong>Project:</strong> Coding Awareness Program for School Children</div>
-                      <div><strong>Course:</strong> UG Community Engagement Project (CEP)</div>
-                      <div><strong>Backend / Database:</strong> PostgreSQL 18 &amp; pgAdmin 4</div>
-                      <div><strong>Survey Sample:</strong> 74 Verified Responses</div>
-                      <div><strong>Frontend Stack:</strong> HTML5, CSS3 (Flexbox &amp; Grid), Vanilla JavaScript</div>
-                      <div><strong>Target Beneficiaries:</strong> School Students (Classes 6th–10th)</div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- ================= FOOTER ================= -->
-      <footer class="footer">
-          <div class="container footer-content">
-              <p>&lt;Code<span>Aware</span>/&gt; • UG Community Engagement Project</p>
-              <p>&copy; 2026. All rights reserved.</p>
-          </div>
-      </footer>
-
-      <script src="script.js"></script>
-  </body>
-  </html>
+    <script src="script.js"></script>
+</body>
+</html>
